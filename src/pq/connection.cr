@@ -220,8 +220,7 @@ module PQ
       startup_args = [
         "user", @conninfo.user,
         "database", @conninfo.database,
-        "application_name", "crystal",
-        "client_encoding", "utf8",
+        "client_encoding", "UTF8",
       ]
 
       startup startup_args
